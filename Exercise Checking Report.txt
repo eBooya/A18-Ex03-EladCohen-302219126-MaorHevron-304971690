@@ -1,0 +1,10 @@
+==========================Exercise Checking Report==========================
+Exercise No...........: 3
+First Student Details.: 302219126 - Elad Cohen
+Second Student Details: 304971690 - Maor Hevron
+Delivery Date.........: 21 - Jan - 2017
+Delivered In Delay....: No
+Delay Reason..........: /
+Visual Studio Version.: 2015 
+Comments..............: /
+========================End Exercise Checking Report========================

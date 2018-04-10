@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{96EBE1A8-1841-476F-9E23-7C966077B79E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>A18_Ex01_Elad_302219126_Maor_304971690</RootNamespace>
+    <AssemblyName>A18 Ex01 Elad 302219126 Maor 304971690</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Facebook">
+      <HintPath>.\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="FbGraphApiWrapper">
+      <HintPath>.\FbGraphApiWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Filtered News Feed\AttachButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Filtered News Feed\AttachButton.designer.cs">
+      <DependentUpon>AttachButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filtered News Feed\AttachButtonBuilder.cs" />
+    <Compile Include="Filtered News Feed\Feed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Filtered News Feed\Feed.designer.cs">
+      <DependentUpon>Feed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filtered News Feed\FeedBuilder.cs" />
+    <Compile Include="Filtered News Feed\FeedGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Filtered News Feed\FeedGroup.designer.cs">
+      <DependentUpon>FeedGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filtered News Feed\FeedGroupBuilder.cs" />
+    <Compile Include="Filtered News Feed\FilteredFeedFormControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Filtered News Feed\FilteredFeedFormControlComposer.cs" />
+    <Compile Include="Filtered News Feed\FilteredNewsFeedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filtered News Feed\FilteredNewsFeedForm.designer.cs">
+      <DependentUpon>FilteredNewsFeedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filtered News Feed\IFilteredFeedFormControlBuilder.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Zodiac Matching\AscComparer.cs" />
+    <Compile Include="Zodiac Matching\ComboBoxFilters.cs" />
+    <Compile Include="Zodiac Matching\ComboBoxFiltersFactory.cs" />
+    <Compile Include="Zodiac Matching\ComboBoxGender.cs" />
+    <Compile Include="Zodiac Matching\ComboBoxRelationShipStatus.cs" />
+    <Compile Include="Zodiac Matching\ComboBoxZodiacSign.cs" />
+    <Compile Include="Zodiac Matching\DescComparer.cs" />
+    <Compile Include="Zodiac Matching\FormMatchingResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zodiac Matching\FormMatchingResult.designer.cs">
+      <DependentUpon>FormMatchingResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zodiac Matching\IComparer.cs" />
+    <Compile Include="Zodiac Matching\LikedPagesSorter.cs" />
+    <Compile Include="Zodiac Matching\MatchingResultFormManager.cs" />
+    <Compile Include="Zodiac Matching\ZodiacMatchingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zodiac Matching\ZodiacMatchingForm.designer.cs">
+      <DependentUpon>ZodiacMatchingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zodiac Matching\ZodiacSign.cs" />
+    <EmbeddedResource Include="Filtered News Feed\AttachButton.resx">
+      <DependentUpon>AttachButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filtered News Feed\Feed.resx">
+      <DependentUpon>Feed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filtered News Feed\FeedGroup.resx">
+      <DependentUpon>FeedGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filtered News Feed\FilteredNewsFeedForm.resx">
+      <DependentUpon>FilteredNewsFeedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Zodiac Matching\FormMatchingResult.resx">
+      <DependentUpon>FormMatchingResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zodiac Matching\ZodiacMatchingForm.resx">
+      <DependentUpon>ZodiacMatchingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DP_Ex03_Elad And Maor.docx" />
+    <None Include="Properties\DataSources\FacebookWrapper.ObjectModel.Page.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Exercise Checking Report.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

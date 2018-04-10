@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.AttachButton" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKBAAAAAAACAAIAiAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filtered News Feed\AttachButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.AttachButtonBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAIAAAAAAACAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filtered News Feed\AttachButtonBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.Feed" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAkABAAVGGCAiAAAADAAAgCIGBAMAQACAgCAAEAQIo=</HashCode>
+      <FileName>Filtered News Feed\Feed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.FeedBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAECAAAAAAAAAACAACAAAAAgAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Filtered News Feed\FeedBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.FeedGroup" Collapsed="true">
+    <Position X="5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAArAAAAMACACAAAACAAAAAEAAQAAACBAAAAA=</HashCode>
+      <FileName>Filtered News Feed\FeedGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.FeedGroupBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAQAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filtered News Feed\FeedGroupBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.FilteredFeedFormControl" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filtered News Feed\FilteredFeedFormControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.FilteredFeedFormControlComposer" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filtered News Feed\FilteredFeedFormControlComposer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.FilteredNewsFeedForm" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACCAEoChBAVAIAAKAAioSIEAAAARAQAAAAQBBhAM=</HashCode>
+      <FileName>Filtered News Feed\FilteredNewsFeedForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.MainForm" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAIWAGghggIgWBUAADQAAQwAAwAAAAAAACEAU=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.Program" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.AscComparer" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Zodiac Matching\AscComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.ComboBoxFilters" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zodiac Matching\ComboBoxFilters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.ComboBoxFiltersFactory" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Zodiac Matching\ComboBoxFiltersFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.ComboBoxGender" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zodiac Matching\ComboBoxGender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.ComboBoxRelationShipStatus" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zodiac Matching\ComboBoxRelationShipStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.ComboBoxZodiacSign" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zodiac Matching\ComboBoxZodiacSign.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.DescComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Zodiac Matching\DescComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.FormMatchingResult" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQRkwCICAAAJASCAmQCEQCAQAAAAIAAAAACQgsAAA=</HashCode>
+      <FileName>Zodiac Matching\FormMatchingResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.LikedPagesSorter" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Zodiac Matching\LikedPagesSorter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.MatchingResultFormManager" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAgAABAIEAAAECIAAAAAAAAAAACA=</HashCode>
+      <FileName>Zodiac Matching\MatchingResultFormManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.ZodiacMatchingForm" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAARCAWhzCAiAA4IAWBBQACEEEwxEGMBAABIyHmwAg=</HashCode>
+      <FileName>Zodiac Matching\ZodiacMatchingForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.ZodiacSign" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zodiac Matching\ZodiacSign.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.Properties.Resources" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="A18_Ex01_Elad_302219126_Maor_304971690.Properties.Settings" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="A18_Ex01_Elad_302219126_Maor_304971690.IFilteredFeedFormControlBuilder" Collapsed="true">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filtered News Feed\IFilteredFeedFormControlBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="A18_Ex01_Elad_302219126_Maor_304971690.IComparer">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Zodiac Matching\IComparer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
